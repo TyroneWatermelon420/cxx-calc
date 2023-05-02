@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/cxx-test.dir/src/main.cpp.o" -o /home/erik/Dokumente/Code/Git/cxx-test/bin/cxx-test 
