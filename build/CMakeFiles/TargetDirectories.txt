@@ -1,3 +1,0 @@
-/home/erik/Dokumente/Code/Git/cxx-test/build/CMakeFiles/cxx-test.dir
-/home/erik/Dokumente/Code/Git/cxx-test/build/CMakeFiles/edit_cache.dir
-/home/erik/Dokumente/Code/Git/cxx-test/build/CMakeFiles/rebuild_cache.dir
