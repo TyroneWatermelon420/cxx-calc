@@ -3,7 +3,7 @@ project(cxx-test)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-file(GLOB SOURCE_FILES CONFIGURE_DEPENDS "*.h" "src/*.cpp")
+file(GLOB SOURCE_FILES CONFIGURE_DEPENDS "headers/*.hpp" "src/*.cpp")
 
 #set(SOURCE_FILES "src/*.cpp")
 

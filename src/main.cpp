@@ -1,4 +1,5 @@
 #include <iostream>
+#include <void.hpp>
 
 int number1;
 int number2;
