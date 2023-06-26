@@ -1,5 +1,5 @@
-#include <iostream>
-#include <void.hpp>
+#include<iostream>
+#include<print.hpp>
 
 int number1;
 int number2;
@@ -9,4 +9,5 @@ int main(){
     std::cin >> number1;
     std::cin >> number2;
     std::cout << number1 << number2 << std::endl;
+    print("joe momma");
 }
