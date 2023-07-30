@@ -9,6 +9,8 @@ include_directories(lib)
 
 #set(SOURCE_FILES "src/*.cpp")
 
+set(CMAKE_CXX_COMPILER=/usr/bin/clang++)
+
 add_executable(cxx-test ${SOURCE_FILES})
 set_target_properties(cxx-test PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin

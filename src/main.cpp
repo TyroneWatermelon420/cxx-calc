@@ -1,15 +1,24 @@
 #include<iostream>
-#include<print.hpp>
+#include<cmath>
 
-#include
+double number1;
+double number2;
 
-int number1;
-int number2;
+char operation;
 
 int main(){
-    std::cout << "Welcome to a Simple Calculator!\nEnter two numbers:" << std::endl;
+    std::cout << "********************************************\n\n\nWelcome to the simple calculator!\nEnter the operation you want to use +,-,*,/\n-->  ";
+    std::cin >> operation;
+    std::cout << std::endl << std::endl;
+    std::cout << "Enter two numbers for your calculation\nFirst number\n-->  ";
     std::cin >> number1;
+    std::cout << "Second number\n-->  ";
     std::cin >> number2;
-    std::cout << number1 << number2 << std::endl;
-    print("joe momma");
+
+    switch (operation) {
+        case'+':
+            std::cout << number1 << "+" << number2 << " is ";
+            std::cout << number1 + number2 << std::endl;
+            break;
+    }
 }
