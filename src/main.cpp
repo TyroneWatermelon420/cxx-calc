@@ -1,4 +1,5 @@
 #include<iostream>
+#include<print.hpp>
 
 using namespace std;
 
@@ -8,6 +9,7 @@ double number2;
 char operation;
 
 int main(){
+    print("joemomma");
     cout << "********************************************\n\n\nWelcome to the simple calculator!\nEnter the operation you want to use +,-,*,/\n-->  ";
     cin >> operation;
     cout << endl << endl;

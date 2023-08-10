@@ -1,11 +1,11 @@
-cmake_minimum_required(VERSION 3.26.3)
+cmake_minimum_required(VERSION 3.27.1)
 project(cxx-test)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-file(GLOB SOURCE_FILES "lib/*.hpp" "src/*.cpp")
+file(GLOB SOURCE_FILES "src/lib/*.hpp" "src/*.cpp")
 
-include_directories(lib)
+include_directories(src/lib)
 
 #set(SOURCE_FILES "src/*.cpp")
 
